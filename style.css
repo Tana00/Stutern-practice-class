@@ -19,7 +19,6 @@
 .buttons {
   margin: 0.9em 0 0 53em;
   display: inline;
-  float: right;
 }
 .sign-in {
   border: none;
@@ -202,7 +201,6 @@ a {
   margin: 0 1.5em 0 0;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 15.8px;
   line-height: 20px;
 }
 .footer hr {
@@ -215,6 +213,10 @@ a {
 .row2 .footer-links {
   float: right;
   margin: 1em 0 0 45em;
+  text-decoration: none;
+}
+.row2 .footer-links a {
+  text-decoration: none;
 }
 .row2 h1 {
   color: rgba(255, 255, 255, 0.98);
