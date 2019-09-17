@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+table {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 1em 8em 15em 15em;
+  width: 65%;
+  box-sizing: 2px rgb(179, 178, 178);
+  border-spacing: 1px 10px;
+}
+td {
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 10px 1px 9px 1px rgb(161, 161, 161);
+  -webkit-box-shadow: 0 1px 9px 1px rgba(161, 161, 161);
+}
+img {
+  width: 3em;
+}
+td:nth-child(even) {
+  width: 13em;
+}
+
+button {
+  background-color: #ff6910;
+  border: none;
+  color: white;
+  width: 10em;
+  height: 3.2em;
+}
+a {
+  color: black;
+}
+.line {
+  background-color: #707585;
+  width: 10em;
+  height: 2px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0;
+}
+.line .oval {
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-color: #ffffff;
+  border: solid 2px #707585;
+  margin: -0.4em 4.5em;
+}
+.line .oval1 {
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-color: #ffffff;
+  border: solid 2px #707585;
+  margin: -0.4em 2.5em;
+}
+.line .oval2 {
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-color: #ffffff;
+  border: solid 2px #707585;
+  margin: -0.9em 7em;
+}
+.destinations {
+  font-size: 1.2em;
+  margin: 0 15px;
+}
+.image {
+  margin: 2em;
+}
+.flights {
+  margin: 3em 0 0 0;
+}
